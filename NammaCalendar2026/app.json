@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "நம்ம Calendar",
+      "entryPoint": "App",
     "slug": "namma-calendar-2026",
     "version": "1.0.0",
     "orientation": "portrait",
