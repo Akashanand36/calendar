@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "நம்ம Calendar",
-      "entryPoint": "App",
+    "entryPoint": "App",
     "slug": "namma-calendar-2026",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -11,6 +11,9 @@
       "image": "./assets/images/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#0D0D0D"
+    },
+    "web": {
+      "bundler": "metro"
     },
     "ios": {
       "supportsTablet": false,
