@@ -2,14 +2,17 @@
   "name": "namma-calendar-2026",
   "version": "1.0.0",
   "main": "expo-router/entry",
-  "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
-    "build:android": "eas build --platform android",
-    "build:ios": "eas build --platform ios"
-  },
+"scripts": {
+  "start": "expo start",
+  "android": "expo start --android",
+  "ios": "expo start --ios",
+  "web": "expo start --web",
+
+  "build": "expo export",
+
+  "build:android": "eas build --platform android",
+  "build:ios": "eas build --platform ios"
+},
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.5",
     "@shopify/flash-list": "1.6.4",
