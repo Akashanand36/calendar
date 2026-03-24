@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "நம்ம Calendar",
+    "slug": "namma-calendar-2026",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0D0D0D"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.nammaapps.calendar2026",
+      "buildNumber": "1"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons/adaptive-icon.png",
+        "backgroundColor": "#0D0D0D"
+      },
+      "package": "com.nammaapps.calendar2026",
+      "versionCode": 1,
+      "permissions": ["RECEIVE_BOOT_COMPLETED", "VIBRATE"]
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      ["expo-notifications", {
+        "icon": "./assets/icons/notification-icon.png",
+        "color": "#E8600A"
+      }]
+    ]
+  }
+}
